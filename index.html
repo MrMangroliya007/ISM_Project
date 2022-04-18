@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>ABC BANK</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <ul>
+                <li><a href="./index.css" class="active">Account</a></li>
+                <li><a href="./sendmoney.html">Send Money</a></li>
+                <li><a href="./transactions.html">Transaction History</a></li>
+                <li id=login><a href="/logout">log out</a></li>
+            </ul>
+        </div>
+        <div class="Account">
+            <h1>Welcome <%= diplayname %> to your Account</h1>
+            <h3>Account Number:- <%= displayaccountnumber %></h3>
+            <h2>Balance Availabe:- <%= diplayamount %> Rs. </h2>
+        </div>
+    </body>
+</html>
